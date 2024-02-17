@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap'); 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer {
+    body {
+        @apply text-whiteColor bg-primaryColor
+
+
+    }
+}

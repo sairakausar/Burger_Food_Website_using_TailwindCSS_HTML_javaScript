@@ -1,0 +1,234 @@
+Package .Json : npm init init -y
+
+Now 
+
+Tailwind css: npm install -D tailwindcss
+              npx tailwindcss init
+
+
+tailwind.config.js: 
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+.....................
+
+Folder
+src/input.css :
+src Folder & file imput.css
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.............
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+Now Change This: 
+
+In Package.json : 
+
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+.....................................
+src make file:
+
+index.html
+
+and past from tailwind
+..............................................
+
+Terminal: 
+npm run watch
+
+Now I look new file output.css by the write npm run watch
+
+...................
+now go folder and open html 
+......................
+
+go in extention in visual Studio and install extention
+
+Live Server
+...............
+Visual Studio
+
+Right Click
+
+open in live Server
+
+and this open thenselfly in the Front
+
+...........................
+
+Now make img folder in src
+
+past img
+
+...............
+tailwind.config.js
+
+Theme
+: extend :    make a object {which name is } :
+
+Colors
+
+ theme: {
+    extend: {},
+  },
+
+.....
+now i do
+
+extend: {
+      colors: {
+        primaryCOlor: "#010a5e"
+      }
+    },
+
+
+{make a colors: and make object PrimaryColors:   }
+.................
+in html
+ down in meta tag
+
+now make 
+
+link:favicon  enter  theen make this 
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+
+..................................
+google
+https://cdnjs.com/
+
+font font-awesome:
+Mid wala: in HTML before The head tag:
+
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+...................................
+Google
+remix icon:
+https://remixicon.com/  :
+git hub button: 
+CDN :
+
+link Copy :
+
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+...................
+menu icone
+..............
+link copy and past
+..................
+google:
+https://fontawesome.com/:
+
+also have link
+
+click and copy
+...............
+make input link in html
+
+ <link href="./input.css" rel="stylesheet">
+...........
+<body> tag 
+make the comment and tell  Navbar
+
+now draw the header  tag and also give class for css in input.css
+
+
+And after header tag  make nav tag also give class for css 
+...................
+
+tailwind css :
+
+https://tailwindcomponents.com/
+cheaseSheet:
+https://tailwindcomponents.com/cheatsheet/
+
+...............
+terninal open 
+
+and write :
+
+npm run watch
+because it not show the changes input to the front output.css
+..............
+Tailwind config.js
+
+In contecnt: 
+["./src/**/*.{html,js}"],
+
+now its work
+.............
+Chage color
+
+tailwind config js
+
+  colors: {
+        primaryCOlor: "#010a5e"
+      }
+    },
+.....................
+its PrimaryCOlor is the custom color which is not in tailwind but now it make color for the tailwind
+Now
+We can use this in our class (tailwind.css)
+.............................
+colors in tawilwind Config js   colors: {
+      primaryColor: "#010a5e",
+        primaryColorLight: "#010d78",
+        secondaryColor: "#FFCC00",
+        paragraphColor: "#c0c0c0",
+        whiteColor: "#fff",
+        blackColor: "#000",
+        greenColor: "#007936",
+        redColor: "#cc3433",
+        darkColor: "#000",
+        darkColorLight: "#171717"
+      }
+    },
+..................
+also 
+  screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "1024px",
+    }
+..........................
+
+Now make two div for nav bar 1 logo and 2nd for links Home, About and other links
+..
+for small Screen
+.......................
+Write Link in HONE about and other in UL and LI
+
+.............
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
