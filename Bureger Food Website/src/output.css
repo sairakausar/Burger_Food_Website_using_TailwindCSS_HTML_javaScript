@@ -842,6 +842,14 @@ section{
     width: auto;
   }
 
+  .md\:w-full{
+    width: 100%;
+  }
+
+  .md\:basis-1\/2{
+    flex-basis: 50%;
+  }
+
   .md\:flex-row{
     flex-direction: row;
   }
@@ -857,6 +865,20 @@ section{
   .md\:py-0{
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .md\:text-start{
+    text-align: start;
+  }
+}
+
+@media (min-width: 1024px){
+  .lg\:basis-2\/5{
+    flex-basis: 40%;
+  }
+
+  .lg\:basis-3\/5{
+    flex-basis: 60%;
   }
 }
 
