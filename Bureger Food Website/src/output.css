@@ -446,6 +446,24 @@ video {
   display: none;
 }
 
+body{
+  --tw-bg-opacity: 1;
+  background-color: rgb(1 10 94 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+section{
+  padding-bottom: 1rem;
+  padding-top: 4rem;
+}
+
+@media (min-width: 768px){
+  section{
+    padding-top: 5rem;
+  }
+}
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -610,6 +628,10 @@ video {
   display: none;
 }
 
+.w-60{
+  width: 15rem;
+}
+
 .w-full{
   width: 100%;
 }
@@ -634,12 +656,20 @@ video {
   justify-content: center;
 }
 
+.gap-10{
+  gap: 2.5rem;
+}
+
 .gap-4{
   gap: 1rem;
 }
 
 .gap-5{
   gap: 1.25rem;
+}
+
+.border-2{
+  border-width: 2px;
 }
 
 .border-b{
@@ -649,6 +679,16 @@ video {
 .border-secondaryColor{
   --tw-border-opacity: 1;
   border-color: rgb(255 204 0 / var(--tw-border-opacity));
+}
+
+.border-sky-500{
+  --tw-border-opacity: 1;
+  border-color: rgb(14 165 233 / var(--tw-border-opacity));
+}
+
+.bg-secondaryColor{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 204 0 / var(--tw-bg-opacity));
 }
 
 .bg-sky-700{
@@ -679,19 +719,18 @@ video {
   text-decoration-line: underline;
 }
 
-@layer {
-  body{
-    --tw-bg-opacity: 1;
-    background-color: rgb(1 10 94 / var(--tw-bg-opacity));
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
+.home__title{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.rubik-glitch pop-regular {
-  font-family: "Rubik Glitch Pop", system-ui;
-  font-weight: 400;
-  font-style: normal;
+@media (min-width: 1024px){
+  .home__title{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
 }
 
 .hover\:text-secondaryColor:hover{
@@ -737,3 +776,4 @@ video {
     padding-bottom: 0px;
   }
 }
+
