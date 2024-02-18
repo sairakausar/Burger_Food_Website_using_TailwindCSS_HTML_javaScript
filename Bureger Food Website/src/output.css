@@ -592,6 +592,33 @@ section{
   }
 }
 
+.btn{
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 0.375rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: capitalize;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+}
+
+.btn-primary{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 204 0 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.btn-primary:hover{
+  opacity: 0.75;
+}
+
 .fixed{
   position: fixed;
 }
@@ -620,6 +647,11 @@ section{
   top: 1.75rem;
 }
 
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .flex{
   display: flex;
 }
@@ -644,6 +676,10 @@ section{
   cursor: pointer;
 }
 
+.flex-row{
+  flex-direction: row;
+}
+
 .flex-col{
   flex-direction: column;
 }
@@ -666,6 +702,10 @@ section{
 
 .gap-5{
   gap: 1.25rem;
+}
+
+.gap-y-4{
+  row-gap: 1rem;
 }
 
 .border-2{
@@ -701,13 +741,36 @@ section{
   padding-bottom: 3.5rem;
 }
 
+.pt-6{
+  padding-top: 1.5rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
 .text-3xl{
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-bold{
   font-weight: 700;
+}
+
+.text-secondaryColor{
+  --tw-text-opacity: 1;
+  color: rgb(255 204 0 / var(--tw-text-opacity));
 }
 
 .text-yellow-400{
@@ -718,6 +781,8 @@ section{
 .underline{
   text-decoration-line: underline;
 }
+
+/* big title */
 
 .home__title{
   font-size: 2.25rem;
@@ -731,6 +796,24 @@ section{
     font-size: 3.75rem;
     line-height: 1;
   }
+}
+
+.separator{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  height: 2px;
+  width: 5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 204 0 / var(--tw-bg-opacity));
+}
+
+.paragraph {
+  /* two line differce = leading-5 */
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(192 192 192 / var(--tw-text-opacity))
 }
 
 .hover\:text-secondaryColor:hover{
@@ -776,4 +859,5 @@ section{
     padding-bottom: 0px;
   }
 }
+
 
