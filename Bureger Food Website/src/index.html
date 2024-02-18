@@ -31,9 +31,10 @@
       </div>
 
 
-      <div id="navBarLInks" class="hidden absolute top-0 w-full py-14 bg-sky-700 border-b border-secondaryColor">
+      <div id="navBarLInks" class="hidden absolute top-0 w-full py-14 bg-sky-700 border-b border-secondaryColor 
+      md:block md:static md:border-none md:w-auto md:ml-auto  md:py-0">
 
-        <ul class="flex flex-col justify-center items-center ">
+        <ul class=" flex flex-col justify-center items-center md:flex-row md:gap-6">
           <li>
             <!-- next Link tag HTML a tag for link -->
             <a class="Nav__Link" href="#">Home</a>
@@ -58,7 +59,7 @@
 
         </ul>
 
-        <div id="closeFinish" class="absolute top-7 right-7 text-3xl hover:text-secondaryColor">
+        <div id="closeFinish" class="absolute top-7 right-7 text-3xl hover:text-secondaryColor md:hidden">
 
           <i class="ri-close-circle-fill"></i>
 
@@ -72,7 +73,7 @@
         <i class="ri-moon-fill "></i>
 
         <div id="menuIcone">
-          <i class="ri-menu-3-line cursor-pointer"></i>
+          <i class="ri-menu-3-line cursor-pointer md:hidden"></i>
         </div>
 
 

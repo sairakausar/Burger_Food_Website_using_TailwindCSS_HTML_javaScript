@@ -285,7 +285,7 @@ html:
      
      </ul>
 .. main.js:
-const NavBarLinks = document.querySelectorAll('Nav__Link')
+const NavBarLinks = document.querySelectorAll('.Nav__Link')
 
 NavBarLinks.forEach((link) => {
     return (
@@ -297,6 +297,11 @@ NavBarLinks.forEach((link) => {
     )
 })
 .....................
+
+for md screen : and large Screen:
+<div id="navBarLInks" class="md:block md:static md:border-none md:w-auto md:ml-auto  md:py-0 other thing remain
+md:md:flex-row md:gap-6 in ul tag
+md:hidden  = close icone and menu Icone
 
 
 
