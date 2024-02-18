@@ -216,7 +216,58 @@ for small Screen
 .......................
 Write Link in HONE about and other in UL and LI
 
-.............
+............
+..................
+
+18feb 2024
+npm run watch 
+..............
+ <div class="flex gap-4">
+     
+          <i class="ri-moon-fill"></i>
+       
+     
+          <i class="ri-menu-3-line"></i>
+.....................
+nav bar 
+...............
+for small Screen
+............
+<script>
+in the end
+...................
+make new file main.js
+..................
+<div id="MenuIcone"> 
+       <i class="ri-menu-3-line cursor-pointer"></i>
+    </div>
+
+id="MenuIcone " in html know use in main.js
+...............................
+const menuDivClickbutton = document.getElementById('MenuIcone ')
+
+
+menuDivClickbutton.addEventListener("click", () => {
+    return (
+        
+    )
+})
+'''''''''''''''''''''''
+const menuDivClickbutton = document.getElementById('menuIcone')
+
+const NavbarLinksDiv = document.getElementById('navBarLInks')
+
+menuDivClickbutton.addEventListener("click", () => {
+    return (
+        NavbarLinksDiv.classList.remove("hidden")
+    )
+})
+
+'''''''''''''''''''''''''''''''''
+
+
+
+
 
  
 

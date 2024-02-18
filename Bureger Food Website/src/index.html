@@ -24,13 +24,15 @@
   </h1>    -->
   <!-- NAvbar -->
   <header class=" fixed  top-0 left-0 w-full ">
-    <nav class="container bg-red-800 max-w-5xl h-18 relative  gap-5 flex justify-center items-center">
-   <div class="rubik-glitch">
+    <nav class="container  bg-sky-700 max-w-5xl h-18 relative  gap-5 flex justify-center items-center">
+   <div class="tex">
    <a href="/"> BUR<span class="text-yellow-400">GER</span></a>
    </div>
-   <div >
+
+
+   <div id="navBarLInks" class="hidden absolute top-0 w-full py-14 bg-sky-700 border-b border-secondaryColor">
  
-     <ul class="flex justify-center items-center">
+     <ul class="flex flex-col justify-center items-center ">
       <li>
          <!-- next Link tag HTML a tag for link -->
       <a href="/">Home</a>
@@ -41,15 +43,40 @@
       <li>
       <a href="/">Contact</a></li>
       <a href="/">Review</a></li>
+     
      </ul>
+
+     <div class="absolute top-7 right-7 text-3xl hover:text-secondaryColor">
+          
+          <i class="ri-close-circle-fill"></i>
+       
      </div>
-     <div><i class="ri-close-circle-fill"></i></div>
-    <div><i class="ri-moon-fill"></i></div> 
-    <!-- <div><i class="ri-sun-fill"></i></div>
-    <div><i class="ri-menu-3-line"></i></div> --> 
+
+     </div>
+
+
+     <div  class="flex gap-4 text-3xl ">
+     
+          <i class="ri-moon-fill "></i>
+       
+     <div id="menuIcone"> 
+       <i class="ri-menu-3-line cursor-pointer"></i>
+    </div>
+         
+      
+        <!-- <li>
+          <i class="ri-sun-fill"></i>
+        </li> -->
+      </ul>
+     </div>
+    
+   
+    <!-- <div></div>
+    <div></div> --> 
    
    </nav>
   </header>
+  <script src="main.js"></script>
 
 </body>
 </html>
