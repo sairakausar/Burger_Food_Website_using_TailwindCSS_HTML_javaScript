@@ -264,6 +264,39 @@ menuDivClickbutton.addEventListener("click", () => {
 })
 
 '''''''''''''''''''''''''''''''''
+for close if we click on the small screen 
+
+html:
+
+ <div id="navBarLInks" 
+
+
+   <ul class="flex flex-col justify-center items-center ">
+      <li>
+         <!-- next Link tag HTML a tag for link -->
+      <a class="Nav__Link" href="/">Home</a>
+     
+      </li>
+      <li> <a class="Nav__Link" href="/">About</a></li>
+      <a class="Nav__Link" href="/">Menu</a></li>
+      <li>
+      <a class="Nav__Link" href="/">Contact</a></li>
+      <a class="Nav__Link" href="/">Review</a></li>
+     
+     </ul>
+.. main.js:
+const NavBarLinks = document.querySelectorAll('Nav__Link')
+
+NavBarLinks.forEach((link) => {
+    return (
+        link.addEventListener('click', () => {
+            return (
+                NavbarLinkDiv.classList.add("hidden")
+            )
+        } )
+    )
+})
+.....................
 
 
 
