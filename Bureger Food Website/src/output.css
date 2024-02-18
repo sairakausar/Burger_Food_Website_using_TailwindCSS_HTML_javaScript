@@ -704,6 +704,10 @@ section{
   gap: 1.25rem;
 }
 
+.gap-20{
+  gap: 5rem;
+}
+
 .gap-y-4{
   row-gap: 1rem;
 }
@@ -826,6 +830,11 @@ section{
     position: static;
   }
 
+  .md\:mx-0{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .md\:ml-auto{
     margin-left: auto;
   }
@@ -852,6 +861,10 @@ section{
 
   .md\:flex-row{
     flex-direction: row;
+  }
+
+  .md\:justify-start{
+    justify-content: flex-start;
   }
 
   .md\:gap-6{
