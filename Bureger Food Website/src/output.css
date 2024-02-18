@@ -672,6 +672,16 @@ section{
   max-width: 64rem;
 }
 
+@keyframes move{
+  50%{
+    transform: translateY(-1rem);
+  }
+}
+
+.animate-MyAnimation{
+  animation: move 2s linear infinite;
+}
+
 .cursor-pointer{
   cursor: pointer;
 }
@@ -696,16 +706,16 @@ section{
   gap: 2.5rem;
 }
 
+.gap-20{
+  gap: 5rem;
+}
+
 .gap-4{
   gap: 1rem;
 }
 
 .gap-5{
   gap: 1.25rem;
-}
-
-.gap-20{
-  gap: 5rem;
 }
 
 .gap-y-4{
@@ -861,14 +871,6 @@ section{
 
   .md\:flex-row{
     flex-direction: row;
-  }
-
-  .md\:justify-start{
-    justify-content: flex-start;
-  }
-
-  .md\:justify-center{
-    justify-content: center;
   }
 
   .md\:justify-around{
