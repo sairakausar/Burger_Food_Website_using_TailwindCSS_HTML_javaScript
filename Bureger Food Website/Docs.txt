@@ -106,7 +106,8 @@ link:favicon  enter  theen make this
 
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-
+/
+/
 ..................................
 google
 https://cdnjs.com/
@@ -302,6 +303,26 @@ for md screen : and large Screen:
 <div id="navBarLInks" class="md:block md:static md:border-none md:w-auto md:ml-auto  md:py-0 other thing remain
 md:md:flex-row md:gap-6 in ul tag
 md:hidden  = close icone and menu Icone
+
+............................
+for animation
+........
+tailwind.configjs
+
+   keyframes: {
+        move: {
+          "50%" : { transform: 'translateY(-1rem)'}
+        }
+      },
+      animation: {
+        'MyAnimation': 'move 2s linear infinite'
+      }
+    },
+...........
+..............
+20 feb 2024
+...........
+
 
 
 
